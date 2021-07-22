@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="style.css" rel="stylesheet">
+		<link rel="shortcut icon" href="img/logo.png" type="image/png">
+		<title>Хотите качественный, но при этом недороой сайт? - вы по адресу!</title>
+		<script src="jquery.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body class="scroll_no">
+<!--
+	-------------------------Прелоадер------------------------
+-->
+	<div id="preloader"></div>
+<!--
+	-------------------------Верхнее меню------------------------
+-->
+	<header id="header" class="resets">
+		<nav id="menu" class="resets">
+			<div id="mob_menu"><div id="mm_img"><img src="img/menu_on.png"></div><p>Меню</p></div>
+			<a href="index.html" id="fa"><img src="img/logotype.png" class="links_image rotate_fa">code.uz</a>
+			<a href="#slider" id="gallery" class="links"><img src="img/gallery.png" class="links_image">О нас</a>
+			<a href="#service_l" id="site" class="links"><img src="img/sites.png" class="links_image">Веб-Сайты</a>
+			<a href="#sites" id="servic" class="links fn"><img src="img/services.png" class="links_image">Услуги</a>
+			<a href="#footer" id="contact" class="links"><img src="img/customer_support.png" class="links_image">Контакты</a>
+			<a href="#order" id="buy" class="links"><img src="img/invoice.png" class="links_image">Заказать</a>
+		</nav>
+	</header>
+<!--
+	-------------------------Сайты слева----------------------
+-->
+<section id="content" class="scroll">
+	<nav id="service_l" class="resets">
+		<a href="#landing" class="leftmenu resets"><img src="img/blog.png" class="lmimg rotate_fa">Сайт-визитка<span class="lms">Общая информация о владельце</span></a>
+		<a href="#blog" class="leftmenu resets"><img src="img/landing.png" class="lmimg rotate_fa">Лендинг<span class="lms">Продажа 1 вида товара</span></a>
+		<a href="#audio_blog" class="leftmenu resets"><img src="img/music.png" class="lmimg rotate_fa">Промо-сайт<span class="lms">Раскрутка и продвижение бренда</span></a>
+		<a href="#video_blog" class="leftmenu resets"><img src="img/company.png" class="lmimg rotate_fa">Блог<span class="lms">Для постов и новостей</span></a>
+	</nav>
+<!--
+	---------------------------Слайдер---------------------------
+-->
+	<section id="slider" class="resets">
+		<!--<img src="img/preload.svg" width="635" class="forslide">
+		<img src="img/preload.svg" width="635" class="forslide">
+		<img src="img/preload.svg" width="635" class="forslide">
+		<img src="img/preload.svg" width="635" class="forslide">-->
+	</section>
+<!--
+	-------------------------Сайты справа----------------------
+-->
+	<nav id="service_r" class="resets"> 
+		<a href="#online_shop" class="rightmenu resets"><img src="img/shop.png" class="rmimg rotate_fa">Корпоративный сайт<span class="rms">Иммидж компаниии</span></a>
+		<a href="#site_news" class="rightmenu resets"><img src="img/news.png" class="rmimg rotate_fa">Интернет-магазин<span class="rms">Торговля, без участия владельца</span></a>
+		<a href="#business_class" class="rightmenu resets"><img src="img/video.png" class="rmimg rotate_fa">Интернет-портал<span class="rms">Обширное информационное содержание</span></a>
+		<a href="#franchaizing" class="rightmenu resets"><img src="img/fran.png" class="rmimg rotate_fa">Также<span class="rms">Другие разлчиные типы веб-сайтов</span></a>
+	</nav>
+<!--
+	-------------------------Настройки сайта----------------------
+-->
+	<!--<div id="visual">
+		<div id="fixed_icon"><img src="img/set.svg"></div>
+		<div id="vissite"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, repellat?</p></div>
+	</div>-->
+<!--
+	-------------------------Услуги----------------------
+-->
+	<section id="sites" class="resets"> 
+		<h1 id="head_sites" class="resets"><img src="img/truefalse.png">У вас уже есть веб-сайт и вам не хватает только некоторых функций или параметров? - В таком случае вам необязательно заказывать целый веб-сайт</h1>
+		<form action="forms.php" method="POST">
+<!-------------------------------------блок Формы------------------------------------------->
+			<div class="site_wrapper">				
+				<fieldset class="con_form">
+					<legend><img src="img/form.png" class="service_img">Формы</legend>
+					<p>Контактируйте с клиентами прямо на сайте</p>
+					<label id="num1">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Комментарии - 50 000 сумов" name="comments">Комментарии</label>
+					<label id="num2">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Чат - 45 000 сумов" name="chat">Чат</label>
+					<label id="num3">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Отзывы - 55 000 сумов" name="review">Отзывы</label>
+					<label id="num4">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Почтовая рассылка - 35 000 сумов" name="mail">Почтовая рассылка</label>
+					<label id="num5">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Обратная связь - 40 000 сумов" name="call">Обратная связь</label>
+					<label id="num6">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Онлайн чат - 70 000 сумов" name="on_chat">Онлайн чат</label>
+					<label id="num7">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Динамический чат - 90 000 сумов" name="dynamic_chat">Динамический чат</label>
+					<label id="num8">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Смс рассылка - 30 000 сумов" name="sms">Смс рассылка</label>
+				</fieldset>
+			</div>
+<!-------------------------------------блок Веб-дизайна------------------------------------------->
+			<div class="site_wrapper">				
+				<fieldset class="con_form">
+					<legend><img src="img/css.png" class="service_img">Веб-дизайн</legend>
+					<p>Дизайн  - первое что видит посетитель</p>
+					<label id="num9">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Оформление форм - 20 000 сумов" name="style_form">Оформление форм</label>
+					<label id="num10">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Предзагрузчик - 25 000 сумов" name="preload">Предзагрузчик</label>
+					<label id="num11">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Оформление цитат - 15 000 сумов" name="articles_css">Оформление цитат</label>
+					<label id="num12">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Анимации - 32 000 сумов" name="animation">Анимации</label>
+					<label id="num13">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Скролл - 44 000 сумов" name="scroll">Скролл</label>
+					<label id="num14">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Градиент - 12 000 сумов" name="gradient">Градиент</label>
+					<label id="num15">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Переходы - 17 000 сумов" name="transition">Переходы</label>
+					<label id="num16">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Кнопки - 10 000 сумов" name="buttons">Кнопки</label>
+				</fieldset>
+			</div>
+<!-------------------------------------блок Безопасности------------------------------------------->
+			<div class="site_wrapper">				
+				<fieldset class="con_form">
+					<legend><img src="img/secure.png" class="service_img">Безопасность</legend>
+					<p>Порой нет ничего важнее безопасности</p>
+					<label id="num17">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Защита от фишинга - 100 000 сумов" name="fishing">Защита от фишинга</label>
+					<label id="num18">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Антисоциальная инженерия - 105 000 сумов" name="injering">Антисоциальная инженерия</label>
+					<label id="num19">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Защита ссылок - 65 000 сумов" name="links">Защита ссылок</label>
+					<label id="num20">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Защита от брутсфорса - 75 000 сумов" name="brutforce">Защита от брутфорса</label>
+					<label id="num21">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Шифрование данных - 80 000 сумов" name="aec">Шифрование данных</label>
+					<label id="num22">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Защита от SQL Injection - 85 000 сумов" name="sql">Защита от SQL Injection</label>
+					<label id="num23">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Защита от CSRF - 60 000 сумов" name="csrf">Защита от CSRF</label>
+					<label id="num24">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Защита от XSS - 88 000 сумов" name="xss">Защита от XSS</label>
+				</fieldset>
+			</div>
+<!-------------------------------------блок Панели управления------------------------------------------->
+			<div class="site_wrapper">				
+				<fieldset class="con_form">
+					<legend><img src="img/admin.png" class="service_img">Управление</legend>
+					<p>Панель управления на ваш вкус</p>
+					<label id="num25">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Геоданные пользователей - 95 000 сумов" name="geo">Геоданные пользователей</label>
+					<label id="num26">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Диаграмма посещений - 100 000 сумов" name="visits">Диаграмма посещений</label>
+					<label id="num27">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Статистика дохдов - 88 000 сумов" name="income">Статистика дохдов</label>
+					<label id="num28">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Статистика расходов - 87 000 сумов" name="rate">Статистика расходов</label>
+					<label id="num29">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Статистика продаж - 89 000 сумов" name="sales">Статистика продаж</label>
+					<label id="num30">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Статистика популярности - 86 000 сумов" name="popular">Статистика популярности</label>
+					<label id="num31">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Учёт товаров - 84 000 сумов" name="products">Учёт товаров</label>
+					<label id="num32">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Отслеживание действий - 110 000 сумов" name="action">Отслеживание действий</label>
+				</fieldset>
+			</div>
+<!-------------------------------------блок Динамичности------------------------------------------->
+			<div class="site_wrapper">				
+				<fieldset class="con_form">
+					<legend><img src="img/dynamic.png" class="service_img">Динамичность</legend>
+					<p>То что отличает веб-сайт, от текста...</p>
+					<label id="num33">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Счётчик онлайнов - 63 000 сумов" name="online">Счётчик онлайнов</label>
+					<label id="num34">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Прогресс бар - 68 000 сумов" name="progress">Прогресс бар</label>
+					<label id="num35">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Загрузка файлов - 64 000 сумов" name="files">Загрузка файлов</label>
+					<label id="num36">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Валидация - 67 000 сумов" name="valid">Валидация</label>
+					<label id="num37">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Регистрация - 72 000 сумов" name="registration">Регистрация</label>
+					<label id="num38">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Авторизация - 71 000 сумов" name="autorization">Авторизация</label>
+					<label id="num39">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Генерация - 76 000 сумов" name="generation">Генерация</label>
+					<label id="num40">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Параллакс скроллинг - 81 000 сумов" name="parallaks">Параллакс скроллинг</label>
+				</fieldset>
+			</div>
+<!-------------------------------------блок Наполнения------------------------------------------->
+			<div class="site_wrapper">				
+				<fieldset class="con_form">
+					<legend><img src="img/text.png" class="service_img">Наполнение</legend>
+					<p>Картинки и тексты - возможность проявить себя</p>
+					<label id="num41">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Создание иконок - 34 000 сумов" name="icons">Создание иконок</label>
+					<label id="num42">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Подключение шрифтов - 28 000 сумов" name="font">Подключение шрифтов</label>
+					<label id="num43">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Векторные картинки - 38 000 сумов" name="svg_pic">Векторные картинки</label>
+					<label id="num44">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Прозрачные картинки - 36 000 сумов" name="png_pic">Прозрачные картинки</label>
+					<label id="num45">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Написание текстов - 32 000 сумов" name="text">Написание текстов</label>
+					<label id="num46">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Оглавление текстов - 26 000 сумов" name="header_text">Оглавление текстов</label>
+					<label id="num47">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Баннеры - 48 000 сумов" name="banner">Баннеры</label>
+					<label id="num48">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Текста для SEO - 59 000 сумов" name="seo">Текста для SEO</label>
+				</fieldset>
+			</div>
+<!-------------------------------------блок Производительности------------------------------------------->
+			<div class="site_wrapper">				
+				<fieldset class="con_form">
+					<legend><img src="img/optimist.png" class="service_img">Быстрота</legend>
+					<p>Производительность сайта - неминуемая задача</p>
+					<label id="num49">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Оптимизация картинок - 19 000 сумов" name="optim_picture">Оптимизация картинок</label>
+					<label id="num50">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="HTML-кода - 230 000 сумов" name="html">HTML - кода</label>
+					<label id="num51">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="CSS-кода - 240 000 сумов" name="css">CSS - кода</label>
+					<label id="num52">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="JS-кода - 290 000 сумов" name="js">JS - кода</label>
+					<label id="num53">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="PHP-кода - 320 000 сумов" name="php">PHP - кода</label>
+					<label id="num54">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Скорость загрузки - 250 000 сумов" name="load">Скорость загрузки</label>
+					<label id="num55">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Уменьшение запросов - 260 000 сумов" name="query">Уменьшение запросов</label>
+					<label id="num56">
+						<span class="checks"></span>
+						<input type="checkbox" class="site_input" value="Всего сайта - 680 000 сумов" name="all_site">Всего сайта</label>
+				</fieldset>
+			</div>
+<!-------------------------------------блок Своего варианта------------------------------------------->
+			<div class="site_wrapper">				
+				<fieldset>
+					<legend><img src="img/also.png" class="service_img">Также</legend>
+					<p>Вы можете предложить свой вариант</p>
+					<textarea id="texts_ser" name="description" class="scroll" placeholder="Что вы хотели бы добавить на свой сайт?"></textarea>
+					<input type="text" class="text_service" autocomplete="off" placeholder="Ваше имя" name="f_name">
+					<input type="text" class="text_service" autocomplete="off" placeholder="Email или тел." name="f_call">
+					<label id="text_service_date">В какое время вы свободны?<input type="time" autocomplete="off" name="f_time"></label>
+				</fieldset>
+			</div>			
+			<div id="form_posts" class="resets">				
+				<div id="calc_result"><img src="img/calc.png"><p id="calc_number">0</p><p>сумов</p></div>				
+				<button type="reset" id="reset_service"><img src="img/reset.png">Сбросить все</button>
+				<button type="submit" id="go_service"><img src="img/ordered.png">Заказать функции</button>
+				<h2 id="preview_head">Предпросмотр<img src="img/previewimage.png"></h2>
+				<div id="input_comment"></div>
+			</div>			
+		</form>		
+	</section>
+<!--
+	-------------------------Заказать----------------------
+-->
+	<aside id="order" class="resets">
+		<a href="#call_me" class="butt" id="order_call"><img src="img/call.png">Заказать звонок<sup>бесплатно</sup></a>	
+		<a href="#call_here" class="butt" id="order_here"><img src="img/paynow.png">Заказать сайт здесь и сейчас<sup>быстрее и легче</sup></a>
+	</aside>
+	<form action="" id="call_me" method="POST">
+		<div id="input_call_tab">
+			<h1>Обсудить проект</h1>
+			<label for="item_call_one" class="call_items">Ваш имя</label>
+			<input type="text" id="item_call_one" placeholder="Как желаете к вам обращаться?">
+			<label for="item_call_two" class="call_items">Ваш телефон номер или Email</label>
+			<input type="text" id="item_call_two" placeholder="Для связи">
+			<input id="submit_item_call" type="submit" value="Обсудить проект">
+		</div>
+		<div class="close_tab"><a href="#order_call"><img src="img/close.png"></a></div>
+	</form>
+	<form action="" method="POST" id="call_here">
+		<div id="input_call_here" class="scroll">
+			<h1>Закажите сайт в 1 клик</h1>
+			<fieldset id="about_you">
+				<legend>О вас</legend>
+				<label for="iib">Имя</label>
+				<input id="iib" type="text">
+				<label for="iif">Фамилия</label>
+				<input id="iif" type="text">
+				<label for="iig">Отчество</label>
+				<input id="iig" type="text">
+				<label for="iit">Место жительства</label>
+				<input id="iit" type="text">
+				<label for="iio">Тел. или Email</label>
+				<input id="iio" type="text">
+			</fieldset>	
+			<fieldset id="your_pro">
+				<legend>О вашем проекте</legend>
+				<select name="list_site" id="list_site">
+					<option selected disabled>Какой тип сайта вы выбрали</option>
+					<option value="блог">Сайт-визитка</option>
+					<option value="одностраничник">Лендинг</option>
+					<option value="аудио_блог">Промо-сайт</option>
+					<option value="видео_блог">Блог</option>
+					<option value="интернет_магазин">Корпоративный сайт</option>
+					<option value="сайт_объявлений">Интернет-магазин</option>
+					<option value="бизнес_класс">Форум</option>
+					<option value="сайт_франчайзинг">Веб-портал</option>
+					<option value="онлайн-школа">Оналайн-школа</option>
+					<option value="Сайт вопросов и ответов">Сайт вопросов и ответов</option>
+					<option value="Веб-сайт для ресторанов">Веб-сайт для ресторанов</option>
+				</select>
+				<label for="about_project">Опишите ваш проект<sup>необязательно</sup></label>
+				<textarea name="project" id="about_project"></textarea>
+			</fieldset>		
+			<fieldset id="designers">
+				<legend>Какой дизайн хотите?</legend>
+				<input id="new_des" type="radio" name="select_design">
+				<label for="new_des" id="fnd"><p>Новый</p>
+				<p>Мы создадим веб-сайт на основе нового дизайна</p></label>
+				<input id="uni_des" type="radio" name="select_design">
+				<label for="uni_des" id="fud"><p>Уникальный</p>
+				<p>Веб-сайт будет иметь уникальное оформление</p></label>
+				<input id="my_des" type="radio" name="select_design">
+				<label for="my_des" id="fmd"><p>Свой</p>
+				<p>Если у вас есть  пример сайта и вы хотите такой же</p></label>
+			</fieldset>
+			<fieldset id="pays_class">
+				<legend>Способ оплаты</legend>
+				<input id="pay_nowed" type="radio" name="select_pay">
+				<label for="pay_nowed" id="fpn">Предоплата<sup>намного легче</sup></label>
+				<input id="pay_fin" type="radio" name="select_pay">
+				<label for="pay_fin" id="fpf">Оплата при завершении</label>
+			</fieldset>
+			<input type="submit" id="go_names">
+		</div>
+		<div class="close_tab"><a href="#order_here"><img src="img/close.png"></a></div>
+	</form>
+<!--
+	---------------------------Нижнее меню и контакты-----------------------
+-->
+	<footer id="footer" class="resets">
+		<div id="contacts">
+			<h2>Контактная информация</h2>
+			<p class="adres"><img src="img/phone_number.png">Номер телефона</p>
+			<p class="show_adres"><span class="f_icon">&#9675;</span>+998 (90) 129-40-82</p>
+			<a href="tel:+998901294082" target="_blank" class="link_adres">Позвонить</a>
+			<p class="adres"><img src="img/telegram.png">Телеграм</p>
+			<p class="show_adres"><span class="f_icon">&#9675;</span>https://t.me/imbattibile1</p>
+			<a href="https://t.me/imbattibile1" target="_blank" class="link_adres">Отправить сообщение</a>
+			<p class="adres"><img src="img/email.png">Электронная почта</p>
+			<p class="show_adres"><span class="f_icon">&#9675;</span>ligewatches.uz@mail.ru</p>
+			<a href="mailto:ligewatches.uz@mail.ru" target="_blank" class="link_adres">Отправить сообщение</a>
+		</div>
+		<div id="also">
+			<h2>Дополнительная информация</h2>
+			<nav id="foot_menu1">
+				<a href="#portfolio" class="link_foot"><img src="img/portfolio.png">Портфолио</a>
+				<a href="#reviews" class="link_foot"><img src="img/reviews.png">Отзывы</a>
+				<a href="#coupons" class="link_foot"><img src="img/coupons.png">Скидки</a>
+				<a href="#pays" class="link_foot"><img src="img/pay.png">Условия оплаты</a>
+				<a href="#trans" class="link_foot"><img src="img/trans.png">Условия доставки</a>
+				<a href="#helps" class="link_foot"><img src="img/support.png">Техподдержка</a>
+			</nav>
+			<nav id="foot_menu2">
+				<a href="#service" class="link_foot"><img src="img/inspect.png">Обслуживание сайтов</a>
+				<a href="#advt" class="link_foot"><img src="img/marketing.png">Реклама</a>
+				<a href="#works" class="link_foot"><img src="img/works.png">Гарантии и сроки</a>
+				<a href="#study" class="link_foot"><img src="img/study.png">Обучение</a>
+				<a href="#track" class="link_foot"><img src="img/progress.png">Отследить проект</a>
+				<a href="#back" class="link_foot"><img src="img/back.png">Обратная связь</a>
+			</nav>			
+		</div>
+	</footer>
+<!--
+	--------------------Описание визитки---------------
+-->
+	<div id="landing" class="character_item">
+		<div class="lan_item_head">
+			<h1>Сайт-визитка</h1>
+			<a href="#"><img src="img/close.png"></a>
+		</div>
+		<div class="lan_item_con scroll">
+			<h2>Описание</h2>
+			<p class="punktuation">&ldquo;</p>
+			<p class="licc"><strong>Сайт-визитка</strong> – это наиболее распространенный вид сайтов. Его название говорит само за себя. По сути, сайт-визитка – это электронный аналог традиционной бумажной визитки.</p>
+			<p class="licc">Основное назначение сайта – представить своего владельца (реализуемые им товары, предоставляемые услуги) и дать максимум сведений необходимых для контакта с ним – <strong>адрес, телефоны, e-mail и т.п</strong>. Ввиду небольшого объема размещаемой на сайте информации, структура сайта-визитки всегда проста и понятна.</p>
+			<p class="licc">Традиционно сайт-визитка состоит из 3–5-и страниц и не содержит дополнительных разделов и многоуровневых меню. Графический дизайн сайта, может быть любым, как самым простым и незамысловатым, так и сложным, и даже эксклюзивным, включающим в себя авторскую графику, редко используемые шрифты, анимационные элементы – одним словом все то, что может подчеркнуть личный стиль и индивидуальность его владельца.</p>
+			<p class="licc">Несмотря на простоту и дешевизну данного проекта, сайт-визитка – <strong>это отличный старт для начала любой коммерческой деятельности.</strong></p>
+			<p class="punktuation">&rdquo;</p>
+			<h2>Примеры</h2>
+			<a href="http://jake.ly/" target="_blank"><img src="img/v_ex1.png" alt="Сайт-визитка Джейка Блейка"></a>
+			<a href="https://www.abbyputinski.com/#/portfolio/danielle/" target="_blank"><img src="img/v_ex2.png" alt="Сайт-визитка Эбби Путинской"></a>
+			<a href="https://neueyorke.com/journal/" target="_blank"><img src="img/v_ex3.png" alt="Сайт-визитка Нэеэ Ёрке"></a>
+			<a href="https://thedrawingroomcreative.com/" target="_blank"><img src="img/v_ex4.png" alt="Сайт-визитка Творчества"></a>
+			<h2>Также</h2>
+			<p>Разработка сайта&#8211;визитки завершится через <strong>2 дня</strong> после заказа</p>
+			<p>Стоимость разработки - от 300 000 сумов</p>
+			<a href="#call_me" class="tab_buttom_order">Заказать</a>
+		</div>		
+	</div>
+<!--
+	---------------------------Описание лендинга------------------
+-->
+	<div id="blog" class="character_item">
+		<div class="lan_item_head">
+			<h1>Лендинг</h1>
+			<a href="#"><img src="img/close.png"></a>
+		</div>
+		<div class="lan_item_con scroll">
+			<h2>Описание</h2>
+			<p class="punktuation">&ldquo;</p>
+			<p class="licc">Еще не так давно бизнесмены, владельцы магазинов, ресторанов и компаний, а также индивидуальные предприниматели до конца не понимали <strong>важность</strong> собственного представительства в <strong>сети</strong>. Не успели они привыкнуть к мысли о том, что разработке и продвижению веб-ресурсов необходимо уделять достаточно времени и сил, как появилось совершенно новое и незнакомое прежде понятие – <strong>лендинг</strong>.</p>
+			<p class="licc">Наличие сайта не исключает необходимости создавать лендинг пейдж. Такая посадочная страница создается с конкретной целью, под определенную услугу, целевую аудиторию, акцию и т.д. В настоящее время landing page считается одним из наиболее эффективных рекламных инструментов.</p>
+			<p class="licc">Это готовое решение, которое не требует дополнительного обслуживания, настроек, вложений и т.д. В числе главных преимуществ лендинг пейдж – <strong>мобильность</strong>. Страницу легко настроить, изменить, подкорректировать, обновить и т.д.</p>
+			<p class="licc">Такое решение оптимально для уникальной услуги, новинки, ограниченного во времени предложения. В отличие от многостраничного веб-ресурса, на котором представлено много информации, landing page дает пользователю только то, что <strong>необходимо</strong>, раскрывая выгоды и стимулируя к сотрудничеству.</p>
+			<p class="punktuation">&rdquo;</p>
+			<h2>Примеры</h2>
+			<a href="https://www.cropp.com/ru/ru/" target="_blank"><img src="img/l_ex1.png" alt="Отличный лендинг для продажи одежды"></a>
+			<a href="https://www.julianabicycles.com/en-US" target="_blank"><img src="img/l_ex2.png" alt="Пример продажи велосипедов"></a>
+			<a href="https://www.harrys.com/en/us" target="_blank"><img src="img/l_ex3.png" alt="Для продажи техники"></a>
+			<a href="https://www.egrappler.com/responsive-app-landing-page/app-landing-page.html" target="_blank"><img src="img/l_ex4.png" alt="Продающий лендинг для любого вида товара"></a>
+			<h2>Также</h2>
+			<p>Разработка лендинга завершится через <strong>2 дня</strong> после заказа</p>
+			<p>Стоимость разработки - от 300 000 сумов</p>
+			<a href="#call_me" class="tab_buttom_order">Заказать</a>
+		</div>
+	</div>
+<!--
+	---------------------------Описание промо------------------
+-->
+	<div id="audio_blog" class="character_item">
+		<div class="lan_item_head">
+			<h1>Промо&#8211;сайт</h1>
+			<a href="#"><img src="img/close.png"></a>
+		</div>
+		<div class="lan_item_con scroll">
+			<h2>Описание</h2>
+			<p class="punktuation">&ldquo;</p>
+			<p class="licc"><strong>Промо-сайт</strong> – это почти всегда неосновной сайт компании – сайт, который создается специально для <strong>продвижения</strong> какого-либо товара (группы товаров) или услуги.</p>
+			<p class="licc">Промо-сайт – это, прежде всего, <strong>рекламный инструмент</strong>. Его можно сравнить с рекламным проспектом, цель которого – максимально подчеркнуть достоинства того или иного товара (услуги), привлечь клиентов и стимулировать их сделать какие-то действия: купить товар, заказать услугу, принять участие в акции, др.</p>
+			<p class="licc">Объём промо-сайта обычно не превышает 5–10 страниц – этого вполне достаточно, чтобы сайт прекрасно выполнял возложенные на него функции.</p>
+			<p class="licc">Структура промо-сайта определена его задачами. В большинстве случаев она очень простая и не разветвлённая. В общем виде, она может включать в себя:<br>	
+			&#8226; <strong> данные о компании</strong>;<br>	
+			&#8226; <strong> описание</strong> продвигаемых товаров (услуги);<br>	
+			&#8226; <strong> контактные данные</strong>: телефон, адрес офиса, адрес электронной почты.<br>
+			Внешний вид промо-сайта должен быть стильным, ярким и запоминающимся. В ходе его изготовления, как правило, широко используется объемная графика, <strong>эксклюзивный дизайн</strong> и анимация.</p>
+			<p class="punktuation">&rdquo;</p>
+			<h2>Примеры</h2>
+			<a href="https://www.borjomi.com/int_ru/" target="_blank"><img src="img/p_ex1.png" alt="Промо&#8211;сайт компании Borjomi"></a>
+			<a href="http://persona-franshiza.ru/" target="_blank"><img src="img/p_ex2.png" alt="Франшиза салона красоты"></a>
+			<a href="http://clearglade.ru/" target="_blank"><img src="img/p_ex3.png" alt="Промо&#8211;сайт компании Ясная поляна"></a>
+			<a href="https://wolvit.ua/" target="_blank"><img src="img/p_ex4.png" alt="Промо&#8211;сайт Wolvit"></a>
+			<h2>Также</h2>
+			<p>Разработка промо&#8211;сайта завершится через <strong>2 дня</strong> после заказа</p>
+			<p>Стоимость разработки - от 350 000 сумов</p>
+			<a href="#call_me" class="tab_buttom_order">Заказать</a>
+		</div>
+	</div>
+<!--
+	---------------------------Описание блога------------------
+-->
+	<div id="video_blog" class="character_item">
+		<div class="lan_item_head">
+			<h1>Блог</h1>
+			<a href="#"><img src="img/close.png"></a>
+		</div>
+		<div class="lan_item_con scroll">
+			<h2>Описание</h2>
+			<p class="punktuation">&ldquo;</p>
+			<p class="licc"><strong>Личный блог</strong> (от англ. blog, web log) – это веб-сайт, основное содержимое которого – регулярно добавляемые записи <strong>(посты)</strong>, содержащие - текст, изображения, мультимедиа. Отличительной особенностью блогов является <strong>актуальность публикуемой информации</strong>.</p>
+			<p class="licc">Для блогов характерны недлинные записи временной значимости, отсортированные в обратном хронологическом порядке и предлагаемые к обсуждению сторонними читателями, посредством комментариев. Блоги могут содержать несколько страниц.</p>
+			<p class="licc">Их число зависит от активности автора и иногда оно может быть достаточно большим. Структура блога всегда <strong>проста и понятна</strong>. Дизайн блога, чаще всего сложный, соответствующий тематике блога, иногда подчеркивающий индивидуальность его автора.</p>
+			<p class="punktuation">&rdquo;</p>
+			<h2>Примеры</h2>
+			<a href="https://www.esquire.com/" target="_blank"><img src="img/b_ex1.png" alt="Блог обо всём - esquire"></a>
+			<a href="https://choiseul.info/" target="_blank"><img src="img/b_ex2.png" alt="Блог университета choiseul"></a>
+			<a href="https://awardonline.com/" target="_blank"><img src="img/b_ex3.png" alt="Блог учебного заведения award"></a>
+			<a href="https://www.nua.ac.uk/" target="_blank"><img src="img/b_ex4.png" alt="Блог института nua"></a>
+			<h2>Также</h2>
+			<p>Разработка блога завершится через <strong>неделю</strong> после заказа</p>
+			<p>Стоимость разработки - от 700 000 сумов</p>
+			<a href="#call_me" class="tab_buttom_order">Заказать</a>
+		</div>
+	</div>
+<!--
+	---------------------------Описание корпоративки--------------
+-->
+	<div id="online_shop" class="character_item">
+		<div class="lan_item_head">
+			<h1>Корпоративный сайт</h1>
+			<a href="#"><img src="img/close.png"></a>
+		</div>
+		<div class="lan_item_con scroll">
+			<h2>Описание</h2>
+			<p class="punktuation">&ldquo;</p>
+			<p class="licc"><strong>Корпоративный сайт</strong> – это фирменный коммерческий сайт компании. Солидное <strong>интернет-представительство компании</strong>. Оптимальное решение для всех компаний, которые хотят <strong>стать лидерами в своей сфере бизнеса</strong>.</p>
+			<p class="licc">Объём корпоративного сайта, как правило, <strong>большой</strong> – сайт может содержать до сотни страниц. Структура сайта, чаще всего, сложная, со сложно переплетённой многоуровневой иерархией логически описывающей бизнес-процессы компании.</p>
+			<p class="licc">В ограниченном пространстве страниц сайта умещаются: многоуровневые меню; тексты, содержащие полную информацию о компании, продукции и услугах, событиях в жизни компании; таблицы; формы поиска; информационные блоки; различные компоненты и модули. Также, сайт может быть интегрирован с внутренними информационными системами компании на нем могут содержаться <strong>корпоративные форумы</strong> и <strong>закрытые разделы</strong> для тех или иных групп пользователей – сотрудников, дилеров, контрагентов и т.д.</p>
+			<p class="licc">Хотя у разных компаний структуры их корпоративных сайтов могут сильно отличаться – опыт показывает, что в общем виде, такие сайты включают в себя:<br>	
+			&#8226; информацию о компании (историю, новости, вакансии и т.д.);<br>
+			&#8226; деловую и полезную информацию (статьи, обзоры, советы, вопросы-ответы, др.);<br>
+			&#8226; каталоги товаров, услуг, их описания, др.;<br>
+			&#8226; прайс-листы;<br>
+			&#8226; раздел для клиентов, партнеров, посетителей;<br>
+			&#8226; закрытую часть для разных групп сотрудников (персональные разделы, личные кабинеты);<br>
+			&#8226; контактные данные и форму обратной связи.<br></p>
+			<p class="licc">Внешний вид корпоративного сайта, как правило, соответствует корпоративному стилю компании. При создании такого сайта <strong>используются фирменные цвета и шрифты</strong>. Часто при создании дизайна сайта отталкиваются от логотипа компании. В современном мире в среднем, и особенно, в большом бизнесе, <strong>корпоративный сайт просто необходим</strong>. Большинство компаний сегодня активно используют корпоративный сайт в работе со своими клиентами, партнерами и сотрудниками.</p>
+			<p class="punktuation">&rdquo;</p>
+			<h2>Примеры</h2>
+			<a href="http://belenergo.by/" target="_blank"><img src="img/k_ex1.png" alt="Корпоративный сайт Белэнерго"></a>
+			<a href="https://www.pixar.com/#pixar-home" target="_blank"><img src="img/k_ex2.png" alt="Корпоративный сайт Pixar"></a>
+			<a href="https://www.stihiya-shop.by/" target="_blank"><img src="img/k_ex3.png" alt="Корпоративный сайт и интернет-магазин компании Стихия"></a>
+			<a href="https://mf.by/" target="_blank"><img src="img/k_ex4.png" alt="Корпоративный сайт фитнес-клуба Мир фитнеса"></a>
+			<h2>Также</h2>
+			<p>Разработка корпоративного сайта завершится через <strong>неделю</strong> после заказа</p>
+			<p>Стоимость разработки - от 650 000 сумов</p>
+			<a href="#call_me" class="tab_buttom_order">Заказать</a>
+		</div>
+	</div>
+<!--
+	---------------------------Описание магазина------------------
+-->
+	<div id="site_news" class="character_item">
+		<div class="lan_item_head">
+			<h1>Интернет-магазин</h1>
+			<a href="#"><img src="img/close.png"></a>
+		</div>
+		<div class="lan_item_con scroll">
+			<h2>Описание</h2>
+			<p class="punktuation">&ldquo;</p>
+			<p class="licc">Сайт <strong>Интернет-магазин</strong> – это современный торговый канал, дающий <strong>возможность реализовывать товары через Интернет</strong>.</p>
+			<p class="licc">Как по части презентационных возможностей, так и в том, что касается удобства работы с товарным ассортиментом – Интернет-магазин является <strong>полнофункциональным магазином</strong>, с той лишь разницей, что его "витрина" <strong>расположена в Интернете</strong>. Сайт-магазин обычно имеет достаточно большой объем (несколько десятков страниц) и сложную структуру. Как правило, на сайте представлен каталог товаров с их подробным описанием, условиями поставки и ценами.</p>
+			<p class="licc">От прочих сайтов, сайт интернет-магазин главным образом <strong>отличается программными модулями, позволяющими автоматизировать процесс купли-продажи через Интернет</strong>.</p>
+			<p class="licc">Дизайн сайта-магазина может быть весьма разнообразным и изменяться в очень широком диапазоне – от весьма простого и сдержанного, до сложного, изысканного и утончённого, хотя, на этот счет, все же существует мнение, что для сайта интернет-магазина более предпочтительным является простой дизайн. Именно такой дизайн имеют все широко известные сегодня и успешные сайты подобного вида.</p>
+			<p class="punktuation">&rdquo;</p>
+			<h2>Примеры</h2>
+			<a href="https://masteroffice.com.ua/" target="_blank"><img src="img/i_ex1.png" alt="Канцелярия masteroffice"></a>
+			<a href="https://www.ttt.ua/" target="_blank"><img src="img/i_ex2.png" alt="Интернет-магазин элетроники ttt"></a>
+			<a href="https://cosmic.net.ua/" target="_blank"><img src="img/i_ex3.png" alt="Лучшая косметика на cosmic"></a>
+			<a href="https://era-in-ear.com/" target="_blank"><img src="img/i_ex4.png" alt="Интернет-магазин аудитехники, а также элетроники"></a>
+			<h2>Также</h2>
+			<p>Разработка интернет-магазина завершится через <strong>2 недели</strong> после заказа</p>
+			<p>Стоимость разработки - от 1 000 000 сумов</p>
+			<a href="#call_me" class="tab_buttom_order">Заказать</a>
+		</div>
+	</div>
+<!--
+	----------------Описание портала------------------
+-->
+	<div id="business_class" class="character_item">
+		<div class="lan_item_head">
+			<h1>Интернет-портал</h1>
+			<a href="#"><img src="img/close.png"></a>
+		</div>
+		<div class="lan_item_con scroll">
+			<h2>Описание</h2>
+			<p class="punktuation">&ldquo;</p>
+			<p class="licc"><strong>Сайт-портал</strong> – это <strong>наиболее мощный и самый сложный вид сетевого ресурса</strong>, который может быть посвящен как одной теме, так и нескольким. Благодаря обширному информационному содержанию сайтов-порталов, <strong>они интересны не только посетителям, но и поисковым системам</strong>, которые в последнее время все большее значение уделяют контенту.</p>
+			<p class="licc">Объём сайта-портала может составлять сотни и тысячи страниц. Структура сайта-портала всегда сложная. Как правило, сайты данного вида содержат много разных разделов и подразделов, меню с <strong>многоуровневой вложенностью</strong>, включает в себя <strong>большое количество разного рода опций и модулей</strong>.</p>
+			<p class="licc">Вообще, сложность структуры сайта в большой степени зависит от тематики сайта и целей, которые ставят перед собой заказчики. Однако, при создании портала, всегда следует помнить о том, что его основной задачей является предоставление информации. В этой связи,  веб-разработчик должен стремиться к созданию такой структуры сайта, которая была бы максимально удобна для пользователя.</p>
+			<p class="licc">Внешний вид сайта-портала обычно в меру сдержан. Объемная графика, о которой мы говорили в случае промо-сайта, теряет свой смысл – на первый план выходит графический минимализм.</p>
+			<p class="licc">Сайты порталы очень популярны в сети Интернет, однако изготовление сайта-портала – это достаточно трудоёмкая задача, которая требует много времени и <strong>привлечения к работе специалистов разных направлений</strong>.</p>
+			<p class="punktuation">&rdquo;</p>
+			<h2>Примеры</h2>
+			<a href="http://mnogo.uz/" target="_blank"><img src="img/t_ex1.png" alt="Интернет-портал, где есть всё и вся - mnogo"></a>
+			<a href="https://www.pacogames.com/ru" target="_blank"><img src="img/t_ex2.png" alt="Интернет-портал игр"></a>
+			<a href="https://www.last.fm/ru/" target="_blank"><img src="img/t_ex3.png" alt="Интернет-портал аудио"></a>
+			<a href="https://www.ivi.ru/" target="_blank"><img src="img/t_ex4.png" alt="Интернет-портал фильмов, сериалов, видео-роликов и т.д."></a>
+			<h2>Также</h2>
+			<p>Разработка интернет-портала завершится через <strong>месяц</strong> после заказа</p>
+			<p>Стоимость разработки - от 1 350 000 сумов</p>
+			<a href="#call_me" class="tab_buttom_order">Заказать</a>
+		</div>
+	</div>
+<!--
+	---------------------------Описание других--------------
+-->	
+	<div id="franchaizing" class="character_item">
+		<div class="lan_item_head">
+			<h1>Социальные сайты, сайты для обсужений, форумы и т.д.</h1>
+			<a href="#"><img src="img/close.png"></a>
+		</div>
+		<div class="lan_item_con scroll">
+			<h2>Описание</h2>
+			<p class="punktuation">&ldquo;</p>
+			<p class="licc">На таких сайтах пользователи могут размещать или искать информацию в виде каких-либо <strong>комментариев, обсуждений, вопросов и ответов</strong>. Функциональность подобна обыкновенной: к примеру сайт-форум - это сайт, где <strong>каждый желающий может вывесить свой вопрос</strong>, а все желающие — прочитать и ответить.</p>
+			<p class="licc">Такие веб-сайты, как правило, поделены на несколько тематических разделов, согласно содержанию. За счет постоянно обновляемого контента, такой сайт может разрастаться до нескольких сотен, иногда тысяч, страниц. Структура сайта в большинстве случаев сложная. Как правило, такие сайты содержат по несколько разделов и подразделов, сложные многоуровневые меню, <strong>большое количество компонентов и модулей</strong>.</p>
+			<p class="licc">Графический дизайн таких веб-сайтов не должен содержать излишеств. Традиционно он всегда простой.</p>
+			<p class="punktuation">&rdquo;</p>
+			<h2>Примеры</h2>
+			<a href="https://olx.uz/" target="_blank"><img src="img/d_ex1.png" alt="Доска-объявлений olx"></a>
+			<a href="https://www.avito.ru/rossiya" target="_blank"><img src="img/d_ex2.png" alt="Доска-объявлений avito"></a>
+			<a href="https://youla.ru/" target="_blank"><img src="img/d_ex3.png" alt="Доска-объявлений юла"></a>
+			<a href="https://torguem.uz/" target="_blank"><img src="img/d_ex4.png" alt="Доска-объявлений torguem"></a>
+			<h2>Также</h2>
+			<p>Разработка электронной доски-объявлений завершится через <strong>3 недели</strong> после заказа</p>
+			<p>Стоимость разработки - от 1 100 000 сумов</p>
+			<a href="#call_me" class="tab_buttom_order">Заказать</a>
+		</div>
+	</div>
+<!--
+	-------------------------Портфолио-------------------------
+-->
+	<div id="portfolio" class="footer_tabs">	
+		<div class="close_foot_tab">
+			<a href="#also"><img src="img/close.png"></a>
+		</div>
+		<div class="two_in_foot">
+			<h1>Портфолио</h1>
+			<div class="three_in_foot scroll">
+				<p class="bold"><span>&ldquo;</span>Лендинги - лучший вариант для быстрых продаж!<span>&rdquo;</span></p>
+				<ul class="examples_portfolio">
+					<li class="list_port">
+						<a href="http://demo.glowlogix.com/landing/renovation/html/index-2.html
+				" target="_blank"><img src="img/renovation_homes.png" alt="Renovation Homes"></a>			
+						<img class="it" src="img/renovation_homes_two.png">
+						<article class="lp2">
+							<h3>Лендинг</h3>
+							<p class="about_port scroll">Homes Renovation - веб-сайт рендеринга домов обновляется для всех видов бизнес-шаблонов для дома и дома. Он предлагает потрясающий дизайн, мощный дисплей и высокую производительность, что не заставит уснуть пользователя в ожидании открытия сайта и многое другое.</p>
+							<p class="price_port">300 000 сумов</p>
+							<a href="#call_me">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a href="http://subscriptionbox.supportyourwp.com/
+				" target="_blank"><img src="img/subscriptionbox.png" alt="Subscription Box"></a>			
+						<img class="it" src="img/subscription_box_two.png">
+						<article class="lp2">
+							<h3>Лендинг</h3>
+							<p class="about_port scroll">Subscription Box - лендинги подписки процветают. Больше компаний пытаются продавать свои продукты и услуги клиентам по подписным планам, чем когда-либо прежде. Вы можете стать одним из тех предприятий! Лендинг подписки - это шаблон целевой страницы, который позволит вам настроить свой бизнес на основе подписки в кратчайшие сроки.</p>
+							<p class="price_port">350 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://eorrangeshop.com/html/ico-trade/home-v1-dark.html#
+				"><img src="img/ico_trade.png" alt=""></a>			
+						<img class="it" src="img/ico_trade_two.png">
+						<article class="lp2">
+							<h3>Лендинг</h3>
+							<p class="about_port scroll">ICO Trade - это креативный и современный криптовалютный торговый лендинг для биткоинов, разных валют, финансов, связанных с валютой на основе блокчейнов и регулируемых торговых сайтов. Информационный шаблон с необходимым разделом и элементами. Он поставляется с двумя домашними страницами вместе с необходимым разделом, таким как сервис, функция, раздел видео, шкала времени, цена, индикатор выполнения и все остальные необходимые разделы со страницами.</p>
+							<p class="price_port">350 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://whoads.me/reflex/Reflex/index.html"><img src="img/reflex.png" alt=""></a>
+						<img class="it" src="img/reflex_two.png">
+						<article class="lp2">
+							<h3>Лендинг</h3>
+							<p class="about_port scroll">Reflex - это отзывчивый лендинг, который можно использовать для вашего нового продукта и адаптивных мобильных приложений. Он создается в соответствии с современными стандартами дизайна и типографикой.</p>
+							<p class="price_port">300 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+				</ul>	
+				<p class="bold"><span>&ldquo;</span>Сайт-визитка - Ваш личный веб-сайт, о вас! -Теперь вашим друзьям будет нетрудно с вами связаться!<span>&rdquo;</span></p>	
+				<ul class="examples_portfolio">
+					<li class="list_port">
+						<a target="_blank" href="https://tefa-v1.netlify.com/
+				"><img src="img/tefa.png" alt=""></a>	
+						<img class="it" src="img/tefa_two.png">
+						<article class="lp2">
+							<h3>Сайт-Визитка</h3>
+							<p class="about_port scroll">Tefa - одно HTML-портфолио для многих целей. Это творческий, минимальный и чистый дизайн. Он имеет все функции бизнес-сайта. Он подходит для любого начинающего бизнеса, компаний, агентств и фрилансеров, которые нуждаются в профессиональном способе продемонстрировать свои проекты и услуги со 100% супер отзывчивостью!</p>
+							<p class="price_port">300 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="https://lmpixels.com/demo/kerge-html/version-1/#about-me
+				"><img src="img/kerge.png" alt=""></a>	
+						<img class="it" src="img/kerge_two.png">
+						<article class="lp2">
+							<h3>Сайт-Визитка</h3>
+							<p class="about_port scroll">Kerge - премиальный инструмент для продвижения по службе. Выглядит потрясающе на любом устройстве  - от широкоэкранного монитора до мобильного телефона. 6 Красивых цветовых схем встроены и легко устанавливаемый любой цвет для таких элементов, как ссылки, кнопки, ссылки меню и т.д.</p>
+							<p class="price_port">350 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://wordpressboss.com/wb/nista-demo/index-particle.html
+				"><img src="img/nista.png" alt=""></a>	
+						<img class="it" src="img/nista_two.png">
+						<article class="lp2">
+							<h3>Сайт-Визитка</h3>
+							<p class="about_port scroll">Если вам интересно создание своего онлайн-портфолио / резюме на сайте, это идеальный шаблон для вас,Nista - это суперчистый и супер профессиональный персональный сайт для портфолио. Если вы дизайнер, фрилансер, маркетолог, он только для вас. Вы можете использовать его для своего личного резюме или вашего портфолио. Веб-сайт Nista написан в действительном и чистом коде HTML и CSS3. Эту тему легко настроить, для ваших потребностей!</p>
+							<p class="price_port">400 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://themewing.com/html/rouvin/index.html
+				"><img src="img/rouvin.png" alt=""></a>
+						<img class="it" src="img/rouvin_two.png">
+						<article class="lp2">
+							<h3>Сайт-Визитка</h3>
+							<p class="about_port scroll">Rouvin - это творческий, современный и профессиональный персональный HTML - шаблон блога. Веб-сайт сделан для блогеров, писателей, разработчиков, дизайнеров, авторов контента и личных веб-сайтов блога. Все файлы HTML прекрасно организованы, поэтому вы можете легко настроить все, что вам нужно!</p>
+							<p class="price_port">300 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+				</ul>		
+				<p class="bold"><span>&ldquo;</span>Корпоративный веб-сайт - не только иммидж компании, но и её официальное виртуальное представительство в интернете!<span>&rdquo;</span></p>	
+				<ul class="examples_portfolio">
+					<li class="list_port">
+						<a target="_blank" href="http://keenitsolutions.com/products/wordpress/cloaking/
+				"><img src="img/cloaking_.png" alt=""></a>			
+						<img class="it" src="img/cloaking_two.png">
+						<article class="lp2">
+							<h3>Корпоративный сайт</h3>
+							<p class="about_port scroll">Cloaking - это чистый, модный и современный шаблон, подходящая для любого агентства SEO, SEM, SMM, Business, Finance, Corporate, B2B, B2C, интернет-маркетинга, электронного маркетинга, цифрового маркетинга, социальных сетей и персональных сайтов. Он поставляется с высококачественными 4 многоцелевыми домашними страницами и множеством встроенных удивительных страниц, таких как служебные страницы, страницы команд, страницы отзывов, несколько макетов блога и т.д. Также веб-сайт включает коммерческий слайдер, поэтому каждый может легко создавать потрясающие слайдеры с анимированными эффектами. Тема также 100% отзывчива, поэтому она будет хорошо работать на всех смарт-устройствах (смартфоны, планшеты, ПК и настольные компьютеры).</p>
+							<p class="price_port">650 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="https://tectxon.themetechmount.com/tectxon-overlay/
+				"><img src="img/tectxon.png" alt=""></a>
+						<img class="it" src="img/tectxon_overlay_two.png">
+						<article class="lp2">
+							<h3>Корпоративный сайт</h3>
+							<p class="about_port scroll">Тематический сайт Tectxon - Premium, представляющая собой идеальное решение для создания профессиональных промышленных, фабричных, корпоративных, малых предприятий промышленности, бизнеса, инженерии. Шаблон Tectxon имеет красивый и уникальный дизайн, который будет лучше всего подходить для вашего онлайн-присутствия в Интернете, например, проектов, блога, отзывов, командных страниц и т.д. Он имеет 100% отзывчивый дизайн и проверен на всех основных браузерах и устройствах. Tectxon поставляется с 3 различными предварительно подготовленными домашними страницами, имеет неограниченное творчество в дизайне и цветах, гибкие макеты и супер мощные функции для портфолио и других элементов - все, что вам может понадобиться, чтобы сделать красивый сайт.</p>
+							<p class="price_port">850 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://unfinityplus.casethemes.net/restaurant/
+				"><img src="img/unfinity_plus.png" alt=""></a>			
+						<img class="it" src="img/unfinity_plus_two.png">
+						<article class="lp2">
+							<h3>Корпоративный сайт</h3>
+							<p class="about_port scroll">Unfinity Plus - одна из лучших коллекций целевых страниц с современным очень хорошо отполированным, отзывчивым, элегантным веб-сайтом. Его очень легко настроить. Unfinity Plus - отличный веб-сайт для многоцелевого бизнеса.</p>
+							<p class="price_port">1 100 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="https://demo2.madrasthemes.com/jobhunt/
+				"><img src="img/jobhunt.png" alt=""></a>
+						<img class="it" src="img/jobhunt_two.png">
+						<article class="lp2">
+							<h3>Корпоративный сайт</h3>
+							<p class="about_port scroll">Jobhunt - это простая в использовании, тщательно закодированная и быстро работающий веб-сайт, основанный на принципе разделения проблем. Jobhunt также поддерживает базовый блок расширения Job Core, который включает в себя такие функции, как диспетчер возобновления, оповещения о работе, теги работы, платные листинги, приложения для работы и т.д.</p>
+							<p class="price_port">650 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+				</ul>	
+				<p class="bold"><span>&ldquo;</span>Промо-сайт - это наилучший способ для привлечения новых пользователей!<span>&rdquo;</span></p>		
+				<ul class="examples_portfolio">
+					<li class="list_port">
+						<a target="_blank" href="http://kute-themes.com/html/turan/home7.html
+				"><img src="img/turanl.png" alt=""></a>
+						<img class="it" src="img/turan_two.png">
+						<article class="lp2">
+							<h3>Промо-сайт</h3>
+							<p class="about_port scroll">Turan - Многоцелевой веб-сайт, с адаптивным дизайном и оптимизайцией - делающий его производительным. Также Turan предоставляет удобный - дружелюбный пользовательский интрефейс, что даёт возможность привлечения больше клиетнов!</p>
+							<p class="price_port">500 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://askbootstrap.com/preview/themeforest-osahan-jewelry/
+				"><img src="img/osahan_jewelry.png" alt=""></a>			
+						<img class="it" src="img/osahan_jewelry_two.png">
+						<article class="lp2">
+							<h3>Промо-сайт</h3>
+							<p class="about_port scroll">Osahan Jewelry специально создана для ювелирных изделий, алмазных компаний и интернет-магазинов, в которых потратив время для понятия отрасли, в результате мы разработали элементы, чтобы предоставить вам идеальный шаблон для создания вашего удивительного веб-сайта с легкостью. Он на 100% супер отзывчив, и он отлично работает на смартфонах, планшетах и ​​настольных компьютерах.</p>
+							<p class="price_port">400 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://askbootstrap.com/preview/osahan-mobile/
+				"><img src="img/osahan_mobile.png" alt=""></a>			
+						<img class="it" src="img/osahan_mobile_two.png">
+						<article class="lp2">
+							<h3>Промо-сайт</h3>
+							<p class="about_port scroll">Osahan Mobile - это высококачественный отзывчивый шаблон, который является чрезвычайно настраиваемым, простым в использовании и полностью отзывчивым. Подходит для всех типов магазинов. Отличная отправная точка для ваших пользовательских проектов. Osahan Mobile включает в себя 4 разных скина и очень красив на мобильных устройствах.</p>
+							<p class="price_port">350 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="https://d29u17ylf1ylz9.cloudfront.net/fusta/index-2.html
+				"><img src="img/fusta.png" alt=""></a>	
+						<img class="it" src="img/fusta_two.png">
+						<article class="lp2">
+							<h3>Промо-сайт</h3>
+							<p class="about_port scroll">Fusta - Мебельный промо-веб-сайт для eCommerce  - полностью отзывчивый шаблон. Fusta может быть удивительной виртуальной идентичностью как магазин электронной коммерции для ваших мебельных продуктов. Этот креативный шаблон содержит 23 + страницы, включая два варианта домашних страниц, 3 страницы блога, шрифты Google, документацию, форму контакта, проверку разметки и многое другое. Кроме того, Fusta - это полностью отзывчивый сайт, который может сохранить его привлекательный макет во всех цифровых устройствах, таких как планшет, смартфон, компьютеры Windows, Mac и т. Д. Кроме того, этот шаблон для кросс-браузера разработан с использованием современных и творческих концепций проектирования.</p>
+							<p class="price_port">400 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+				</ul>
+				<p class="bold"><span>&ldquo;</span>Интернет-магазин - это не просто сайт в интернете, а способ продвижения и продажи товара(ов) без участия рабочих!<span>&rdquo;</span></p>			
+				<ul class="examples_portfolio">
+					<li class="list_port">
+						<a target="_blank" href="http://empic.romaweb.ru/
+				"><img src="img/empic.png" alt=""></a>	
+						<img class="it" src="img/empic_two.png">
+						<article class="lp2">
+							<h3>Интернет-магазин</h3>
+							<p class="about_port scroll">Empic - Мощный веб-сайт Ajax eCommerce для интернет-магазина моды, магазина ручной работы, магазина мебели...  Он поставляется с множеством отличных функций, полностью отзывчив и выглядит потрясающе на всех экранах и устройствах.</p>
+							<p class="price_port">1 100 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="https://sumi.famithemes.com/
+				"><img src="img/sumi.png" alt=""></a>	
+						<img class="it" src="img/sumi_two.png">
+						<article class="lp2">
+							<h3>Интернет-магазин</h3>
+							<p class="about_port scroll">Веб-сайт Sumi оптимизирован для скорости с уделением особого внимания чистому и структурированному коду. Это помогает улучшить производительность и скорость обратной связи. Он полностью отзывчив и выглядит потрясающе на всех экранах и устройствах.</p>
+							<p class="price_port">1 350 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://klbtheme.com/groci/
+				"><img src="img/groci.png" alt=""></a>	
+						<img class="it" src="img/groci_two.png">
+						<article class="lp2">
+							<h3>Интернет-магазин</h3>
+							<p class="about_port scroll">Groci - шаблон для органического рынка продуктов питания и бакалейных товаров eCommerce.</p>
+							<p class="price_port">1 100 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="https://wp.xpeedstudio.com/marketovendor/
+				"><img src="img/marketo.png" alt=""></a>
+						<img class="it" src="img/marketo_two.png">
+						<article class="lp2">
+							<h3>Интернет-магазин</h3>
+							<p class="about_port scroll">Идея концепции Marketo заключается в том, чтобы использовать как можно больше места и удобном для пользователя способе - показать множество продуктов по-разному. Вы можете найти 9 разных стилей с 8 уникальными стилями заголовков, страницей сведений о продукте со страницей, блога магазина товаров и т.д.</p>
+							<p class="price_port">1 000 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+				</ul>
+				<p class="bold"><span>&ldquo;</span>Интернет-журнал событий, интернет-дневник, онлайн-дневник - всё это отлично складывается под одно название - Блог!<span>&rdquo;</span></p>			
+				<ul class="examples_portfolio">
+					<li class="list_port">
+						<a target="_blank" href="http://danyduchainethemes.com/laurie-blog-1/
+				"><img src="img/laurie.png" alt=""></a>
+						<img class="it" src="img/laurie_two.png">
+						<article class="lp2">
+							<h3>Блог</h3>
+							<p class="about_port scroll">Laurie  - творческий сайт-блог с элегантным, тщательно продуманным дизайном. Сайт был спроектирован с «первым мобильным» дизайном, означающим, что он был разработан для мобильных устройств с самого начала и впоследствии был адаптирован для большого экрана. Это делает веб-сайт доступным на всех устройствах!</p>
+							<p class="price_port">1 100 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="https://liviucerchez.com/castilo/
+				"><img src="img/castilo.png" alt=""></a>
+						<img class="it" src="img/castilo_two.png">
+						<article class="lp2">
+							<h3>Блог</h3>
+							<p class="about_port scroll">Потрясающий и профессиональный блог для аудио подкастов. Если вы хотите запустить подкаст и иметь полный контроль над своим сайтом , по более низкой цене, Castilo - это путь. Имея отличную документацию и отличную поддержку , вы мгновенно получите свой сайт!</p>
+							<p class="price_port">700 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="https://demo.deothemes.com/cripton/
+				"><img src="img/cripton.png" alt=""></a>
+						<img class="it" src="img/cripton_two.png">
+						<article class="lp2">
+							<h3>Блог</h3>
+							<p class="about_port scroll">Cripton - это новый и уникальный дизайн для журналов, блогов и веб-сайтов издателей. Вы можете легко вносить изменения и просматривать их в режиме реального времени. Виджеты, которые извлекают реальные данные, сделают ваш сайт настоящим шедевром. Опередите своих конкурентов современным дизайном. Cripton - это веб-блог с молниеносной скоростью, и она идеально оптимизирована для мобильных устройств!</p>
+							<p class="price_port">1 100 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://anthemes.com/themes/bouplay/
+				"><img src="img/bouplay.png" alt=""></a>
+						<img class="it" src="img/bouplay_two.png">
+						<article class="lp2">
+							<h3>Блог</h3>
+							<p class="about_port scroll">Будь вы блогер или компания, Bouplay - чрезвычайно интуитивно понятный, подходящий для развертывания множество различных веб-сайтов и проектов всех видов, но особенно хорошо подходящих для новостей / путешествий / персональных веб-сайтов, публикаций о тенденциях или рецептами продуктов!</p>
+							<p class="price_port">1 100 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+				</ul>	
+				<p class="bold"><span>&ldquo;</span>Интернет-порталы - это самый крупные интерактивные веб-сервисы в интернете!<span>&rdquo;</span></p>		
+				<ul class="examples_portfolio">
+					<li class="list_port">
+						<a target="_blank" href="http://meloo.rascalsthemes.com/demo/home-4-blog/
+				"><img src="img/meloo.png" alt=""></a>	
+						<img class="it" src="img/meloo_two.png">
+						<article class="lp2">
+							<h3>Интернет-Портал</h3>
+							<p class="about_port scroll">Концепция шаблона Meloo построена именно для музыкальной индустрии и других индивидуальных творческих людей. Meloo был сделан с использованием AJAX - то есть вы можете быть уверены, что музыка не перестанет воспроизводиться во время просмотра страниц. Веб-сайт поставляется с супер быстрым построителем страниц для легкого управления вашим контентом и безграничными вариантами макета. Если вы ищете инновационный, современный и чистый дизайн, Meloo определенно для вас ... Он чрезвычайно гибкий, интуитивно понятный и простой в использовании, с премиальными функциями и плагинами, что делает его мощным и полным решением для всех, кто работает в музыкальной индустрии. В Meloo есть разные и уникальные макеты блога, музыкальные и концертные страницы, которые помогут вам легко управлять своими концертами или событиями.</p>
+							<p class="price_port">1 350 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://playerx.edge-themes.com/
+				"><img src="img/playerx.png" alt=""></a>
+						<img class="it" src="img/playerx_two.png">
+						<article class="lp2">
+							<h3>Интернет-Портал</h3>
+							<p class="about_port scroll">PlayerX - мощная тема для игр и eSports, с уникальным дизайном разработанным специально для игровой тематики. Это не просто веб-сайт, а целый веб-портал с возможностью продажи различных геймерских штучек со 100% адаптивностью и высокой производительностью, что делает супер быстрым и в то же время отличает шаблон крутым дизайном - в интерфейсе которого, разберётся каждый пользователь!</p>
+							<p class="price_port">1 350 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://haintheme.com/demo/wp/buster/
+				"><img src="img/blockter.png" alt=""></a>
+						<img class="it" src="img/blockter_two.png">
+						<article class="lp2">
+							<h3>Интернет-Портал</h3>
+							<p class="about_port scroll">Blockter - полностью отзывчивый веб-портал, предназначенный для видео-роликов. Темный, современный и профессиональный интерфейс с чистым кодом сделает ваши сайты фильмов мощными, привлекательными и простыми в использовании. С удивительным встроенным плагином библиотеки фильмов пользователь может легко управлять фильмами, плакатом, жанром, режиссером и т.д. в одном месте. Также можно импортировать фильмы с сайта TMDB всего одним щелчком мыши.</p>
+							<p class="price_port">1 350 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://wellexpo.select-themes.com/
+				"><img src="img/wellexpo.png" alt=""></a>
+						<img class="it" src="img/wellexpo_two.png">
+						<article class="lp2">
+							<h3>Интернет-Портал</h3>
+							<p class="about_port scroll">Дайте вашим посетителям теплый прием на удивительный сайт событий и конференций! WellExpo упакован красиво оформленными домашними страницами и большой коллекцией шаблонов, идеально подходящих для ознакомления с динамиками или представления мероприятия во всех его аспектах. Этот веб-портал включает в себя практическую регистрацию и форму заявки, а также широкий спектр функций, созданных с учетом участников - например, всплывающие функции, страницы с одним динамиком и многое другое. WellExpo также позволяет вам легко и быстро создавать расписание для любого мероприятия, включая конференцию или выставку.</p>
+							<p class="price_port">1 350 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+				</ul>	
+				<p class="bold"><span>&ldquo;</span>Также существуют и другие типы веб-сайтов<span>&rdquo;</span></p>		
+				<ul class="examples_portfolio">
+					<li class="list_port">
+						<a target="_blank" href="https://banyanthemes.com/themes/edufair/
+				"><img src="img/edufair.png" alt=""></a>
+						<img class="it" src="img/edufair_two.png">
+						<article class="lp2">
+							<h3>Онлайн-школа</h3>
+							<p class="about_port scroll">Edufair - это полная система управления обучением. Учителя могут зарабатывать деньги, продавая свой курс. Edufair имеет 6 полных демоверсий для онлайн-курса, университета, средней школы и детского сада. Он идеально подходит для любого образовательного сайта. Он очень прост в использовании. Полностью отзывчивый онлайн - учебный веб-сайт. Это современная созданная тема, которая может быть использована для образовательных учреждений, таких как университеты и колледжи, высшая школа, детский сад, онлайн-курсы.</p>
+							<p class="price_port">1 100 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+						<li class="list_port">
+						<a target="_blank" href="https://2code.info/demo/themes/Discy/Main/
+				"><img src="img/discy.png" alt=""></a>	
+						<img class="it" src="img/discy_two.png">
+						<article class="lp2">
+							<h3>Система вопросов и ответов</h3>
+							<p class="about_port scroll">Discy - это ошеломляющие, профессиональные и гибкие социальные вопросы и ответы, специально разработанные для интернет-сообществ, веб-сайтов вопросов и ответов, сайтов маркетинга, веб-сайтов разработчиков или любых социальных сообществ.ы</p>
+							<p class="price_port">1 350 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://www.aivahthemes.com/wp/epicer/
+				"><img src="img/epicer.png" alt=""></a>
+						<img class="it" src="img/epicer_two.png">
+						<article class="lp2">
+							<h3>Веб-сайт для ресторанов</h3>
+							<p class="about_port scroll">Epicer - это мощный и отзывчивий шаблон с очень продвинутыми функциями, особенно для веб-сайтов, посвященных продовольствиям. Он имеет все функции, которые вам нужны для бизнеса, связанные с списком рецептов и представлениями с расширенными функциональными возможностями.</p>
+							<p class="price_port">1 200 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					<li class="list_port">
+						<a target="_blank" href="http://demo.gloriathemes.com/wp/foro/
+				"><img src="img/foro.png" alt=""></a>	
+						<img class="it" src="img/foro_two.png">
+						<article class="lp2">
+							<h3>Форум</h3>
+							<p class="about_port scroll">Foro - веб-сайт для форумов, сообществ, обсуждения, поддержки и сайтов знаний. Шаблон работает со свободным плагином форума bbPress. Этот премиальный макет поставляется с современным дизайном, компоновщиком страниц, расширенными параметрами и настройками тем.</p>
+							<p class="price_port">1 350 000 сумов</p>
+							<a href="">Хочу такой</a>
+						</article>
+					</li>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!--
+	-------------------------Отзывы-------------------------
+-->
+	<div id="reviews" class="footer_tabs">
+		<div class="close_foot_tab">
+			<a href="#also"><img src="img/close.png"></a>
+		</div>
+		<div class="two_in_foot">	
+			<h1>Отзывы</h1>
+			<div class="three_in_foot scroll">
+				<p><span>&ldquo;</span>Ваши отзывы очень важны для нас, ведь это ещё один мотив - заставляющий нас лететь вверх и только :D<span>&rdquo;</span></p>
+				<a href="reviews.php" id="view_review" target="_blank">Посмотреть отзывы о code.uz</a>
+				<p><span>&ldquo;</span>Просим вас уделить пару минут, для написания отзыва, а после - получить 5% кэшбека от стоимости заказанного веб-проекта!<span>&rdquo;</span></p>
+				<form action="" method="POST">
+					<label class="review_for_site">
+						<p>Ваше имя</p>
+						<input type="text" placeholder="Как вас зовут друг" required>
+					</label>
+					<label class="review_for_site">
+						<p>Ваш Email</p>
+						<input type="email" placeholder="На этот адрес мы пришлём благодарсности" required>
+					</label>
+					<label class="text_review">
+						<p>Ваш драгоценный отзыв</p>
+						<textarea cols="35" rows="5" placeholder="Напишите о нас" required></textarea>
+					</label>
+					<input type="submit" value="Отправить отзыв">
+				</form>
+			</div>
+		</div>
+	</div>
+<!--
+	-------------------------Скидки-------------------------
+-->
+	<div id="coupons" class="footer_tabs">
+		<div class="close_foot_tab">
+			<a href="#also"><img src="img/close.png"></a>
+		</div>
+		<div class="two_in_foot scroll">
+			<h1>Скидки</h1>
+			<div class="three_in_foot scroll">
+				<p><span>&ldquo;</span>В первый раз на code.uz? - Получите скидку в размере - 50 000 сумов, независимо от заказанной услуги!<span>&rdquo;</span></p>
+				<p><span>&ldquo;</span>Уже заказали проект? Запросите особую скидку лично для своего проекта!<span>&rdquo;</span></p>
+				<form action="" method="POST">
+					<label class="review_for_site">
+						<p>Ваше имя</p>
+						<input type="text" placeholder="Как вас зовут друг" required>
+					</label>
+					<label class="review_for_site">
+						<p>Ваш Проект</p>
+						<input type="text" placeholder="Название вашего проекта" required>
+					</label>
+					<label class="review_for_site">
+						<p>Скидка</p>
+						<input type="text" placeholder="Какую скидку вы хотели бы?" required>
+					</label>
+					<input type="submit" value="Запросить скидку">
+				</form>
+			</div>
+		</div>
+	</div>
+<!--
+	-------------------------Условия оплаты-------------------------
+-->
+	<div id="pays" class="footer_tabs">
+		<div class="close_foot_tab">
+			<a href="#also"><img src="img/close.png"></a>
+		</div>
+		<div class="two_in_foot scroll">
+			<h1>Способы Оплаты</h1>
+			<div class="three_in_foot scroll">
+				<p><span>&ldquo;</span>Предоплата - либо наличными, либо электронной валютой<span>&rdquo;</span></p>
+				<p><span>&ldquo;</span>Оплата после завершения разработки сайта, также - либо наличными, либо электронноый валютой<span>&rdquo;</span></p>
+				<div class="foot_img">
+					<img src="img/uzcard.jpg" alt="UzCard">			
+					<img src="img/qiwi.jpg" alt="Qiwi">
+					<img src="img/visa.jpg" alt="Visa">
+				</div>
+			</div>
+		</div>
+	</div>
+<!--
+	-------------------------Условия доставки-------------------------
+-->
+	<div id="trans" class="footer_tabs">
+		<div class="close_foot_tab">
+			<a href="#also"><img src="img/close.png"></a>
+		</div>
+		<div class="two_in_foot scroll">
+			<h1>Условия доставки</h1>
+			<div class="three_in_foot scroll">
+				<p><span>&ldquo;</span>После завершения разработки веб-проекта мы, основываясь на ваш выбор:<span>&rdquo;</span></p>
+				<p>Либо, доставим ваш веб-проект на назначенное для вас удобное место;</p>
+				<p>Либо, всё подготовим заранее, то есть опубликуем ваш веб-сайт в интернете и после оплаты вы сразу же можете приступить к старту!</p>
+				<p><span>&ldquo;</span>В обоих случаях предоставляются инструкция и руководство к панели управления веб-сайтом и при желании мы проведем бесплатный инструктаж!<span>&rdquo;</span></p>
+			</div>
+		</div>
+	</div>
+<!--
+	-------------------------Техподдержка-------------------------
+-->
+	<div id="helps" class="footer_tabs">
+		<div class="close_foot_tab">
+			<a href="#also"><img src="img/close.png"></a>
+		</div>
+		<div class="two_in_foot scroll">
+			<h1>Техподдержка</h1>
+			<div class="three_in_foot scroll">
+				<p><span>&ldquo;</span>Заказали веб-проект и у вас остались нерешённые вопрос(ы)? - Узнайте ответ(ы) прямо сейчас!<span>&rdquo;</span></p>
+				<form action="" method="POST">
+					<label class="review_for_site">
+						<p>Ваше Имя</p>
+						<input type="text" placeholder="Как вас зовут друг" required>
+					</label>
+					<label class="review_for_site">
+						<p>Ваш Проект</p>
+						<input type="text" placeholder="Название вашего проекта" required>
+					</label>
+					<label class="text_review">
+						<p>Ваш нерешённый вопрос</p>
+						<textarea cols="35" rows="5" placeholder="Чем мы можем помочь?" required></textarea>
+					</label>
+					<label class="review_for_site">
+						<p>Контактная информация</p>
+						<input type="text" placeholder="Ваш тел.номер или Email" required>
+					</label>
+					<input type="submit" value="Задать вопрос">
+				</form>			
+			</div>
+		</div>
+	</div>
+<!--
+	-------------------------Обслуживание сайтов-------------------------
+-->
+	<div id="service" class="footer_tabs">
+		<div class="close_foot_tab">
+			<a href="#also"><img src="img/close.png"></a>
+		</div>
+		<div class="two_in_foot scroll">
+			<h1>Обслуживание сайтов</h1>
+			<div class="three_in_foot scroll">
+				<p><span>&ldquo;</span>В мировой сетевой паутине очень много различных интернет-ресурсов. Сайт — это маркетинговый инструмент, правильно используя который, можно увеличить прибыль компании. Все они созданы с целью предоставления информации, но довольно большое количество сайтов заброшены, то есть не обновляются или обновляются очень редко. Разумеется, не все владельцы имеют время самостоятельно следить за своим сайтом. Но для того, чтобы сайт мог выполнять установленные перед ним задачи, необходима его непрерывная комплексная поддержка.<span>&rdquo;</span></p>
+				<p><span>&ldquo;</span>Поддержка сайта, коротко говоря, это услуги по его обновлению и внесению корректировок<span>&rdquo;</span></p>
+				<p><span>&ldquo;</span>Первую неделю обслуживание сайтов будет бесплатной, после, если вы захотите, чтобы мы сами обслуживали ваш сайт - то за неделю стоимость услуги составит 140 000 сумов.<span>&rdquo;</span></p>
+			</div>
+		</div>
+	</div>
+<!--
+	-------------------------Реклама-------------------------
+-->
+	<div id="advt" class="footer_tabs">
+		<div class="close_foot_tab">
+			<a href="#also"><img src="img/close.png"></a>
+		</div>
+		<div class="two_in_foot scroll">
+			<h1>Реклама</h1>
+			<div class="three_in_foot scroll">
+				<table class="foot_table">
+					<tr><th colspan="2">Контент — главный фактор продвижения</th></tr>
+					<tr><td colspan="2">Любой SMM-специалист подтвердит: без качественного контента инструменты продвижения бесполезны. Если на страничке вашего бренда скучно, не стоит рассчитывать на рост аудитории и её лояльность.</td></tr>
+					<tr><td>Стоимость - 4 000 000 сумов</td><td class="order_foot"><a href="#order_call">Заказать</a></td></tr>
+				</table>
+				<table class="foot_table">
+					<tr><th colspan="2">Таргетинг</th></tr>
+					<tr><td colspan="2">Таргетинг — это создание рекламного послания, нацеленного на конкретную часть аудитории в зависимости от её интересов, места жительства и других критериев. Таргетинг повышает эффективность рекламы.</td></tr>
+					<tr><td>Стоимость - 5 000 000 сумов</td><td class="order_foot"><a href="#order_call">Заказать</a></td></tr>
+				</table>
+				<table class="foot_table">
+					<tr><th colspan="2">Реклама в сообществах</th></tr>
+					<tr><td colspan="2">Реклама в сообществах (на профессиональном языке SMM-щиков — посев) — это покупка размещения постов или репостов в популярных сообществах. В первом случае (покупка поста) целью рекламодателя является наращивание трафика на сайте компании; во втором (покупка репоста) — привлечение пользователей в группу компании в социальной сети.</td></tr>
+					<tr><td>Стоимость - от 2 000 000 сумов</td><td class="order_foot"><a href="#order_call">Заказать</a></td></tr>
+				</table>
+				<table class="foot_table">
+					<tr><th colspan="2">Профессиональное продвижение в социальных медиа</th></tr>
+					<tr><td colspan="2">Подразумеваются сервисы, оказывающие платные услуги по продвижению в социальных сетях.</td></tr>
+					<tr><td>Стоимость - от 3 000 000 сумов</td><td class="order_foot"><a href="#order_call">Заказать</a></td></tr>
+				</table>
+				<p><span>&ldquo;</span>Подводя итог, отметим, что в настоящее время практически нет бесплатных методов продвижения продукта / услуги в социальных медиа. Даже если вы самостоятельно занимаетесь раскруткой бренда, без вложений не обойтись (создание контента, таргентинг и тем более реклама в сообществах требуют денег).<span>&rdquo;</span></p>
+			</div>
+		</div>
+	</div>
+<!--
+	-------------------------Гарантии и сроки-------------------------
+-->
+	<div id="works" class="footer_tabs">
+		<div class="close_foot_tab">
+			<a href="#also"><img src="img/close.png"></a>
+		</div>
+		<div class="two_in_foot scroll">
+			<h1>Гарантии</h1>
+			<div class="three_in_foot scroll">
+				<p><span>&ldquo;</span>Перед завершением разработки веб-сайта, проект проходит тестирование - на разных устройствах и браузерах, и поэтому - на любой веб-сайт будь то сайт-визитка, будь то интернет-портал или другой крупный проект разработанный нами даётся бессрочная гарантия!<span>&rdquo;</span></p>
+				<h2>Сроки</h2>
+				<table class="table_in_foot">
+					<tr>
+						<th>Основные типы сайтов</th>
+						<th>Срок на разработку</th>
+						<th rowspan="9">Отсчёт идёт сразу же после заказа!</th>
+					</tr>
+					<tr><td>Сайт-визитка</td><td>12 часов</td></tr>
+					<tr><td>Лендинг</td><td>24 часа</td></tr>
+					<tr><td>Промо-сайт</td><td>36 часов</td></tr>
+					<tr><td>Блог</td><td>2 дня</td></tr>
+					<tr><td>Корпоративный сайт</td><td>2 дня 12 часов</td></tr>
+					<tr><td>Интернет-магазин</td><td>3 дня</td></tr>
+					<tr><td>Доска-объявлений</td><td>3 дня 12 часов</td></tr>
+					<tr><td>Интернет-портал</td><td>4 дня</td></tr>
+				</table>
+				<p><span>&ldquo;</span>Максимальный Срок создания веб-проекта (предложенного нами) - неделя и не более!<span>&rdquo;</span></p>
+			</div>
+		</div>
+	</div>
+<!--
+	-------------------------Обучение-------------------------
+-->
+	<div id="study" class="footer_tabs">
+		<div class="close_foot_tab">
+			<a href="#also"><img src="img/close.png"></a>
+		</div>
+		<div class="two_in_foot scroll">
+			<h1>Обучение управлению веб-сайтом</h1>
+			<div class="three_in_foot scroll">
+				<p><span>&ldquo;</span>Почему обучение от code.uz эффективное?<span>&rdquo;</span></p>
+				<p>А всё потому, что обучение будет осуществляться со стороны самого разработчика веб-сайта, поэтому, если будут вопросы - даже о самых мельчайших деталях, то разработчик знает лучше - что где и как устроено!</p>
+				<p><span>&ldquo;</span>После разработки сайта вам будет предложено обучение управлению - от которого вы можете отказаться, но при этом вы не теряйте свой шанс пройти обучение в другой раз<span>&rdquo;</span></p>
+			</div>
+		</div>
+	</div>
+<!--
+	-------------------------Отследить проект-------------------------
+-->
+	<div id="track" class="footer_tabs">
+		<div class="close_foot_tab">
+			<a href="#also"><img src="img/close.png"></a>
+		</div>
+		<div class="two_in_foot scroll">
+			<h1>Отслеживание проекта</h1>
+			<div class="three_in_foot scroll">
+				<p><span>&ldquo;</span>Отследите на каком этапе разработки находится ваш веб-проект<span>&rdquo;</span></p>
+				<form action="" method="POST">
+					<label class="review_for_site">
+						<p>Ваше Имя</p>
+						<input type="text" placeholder="Как вас зовут друг" required>
+					</label>
+					<label class="review_for_site">
+						<p>Ваш Проект</p>
+						<input type="text" placeholder="Название вашего проекта" required>
+					</label>
+					<label class="review_for_site">
+						<p>Контактная информация</p>
+						<input type="text" placeholder="Ваш тел.номер или Email" required>
+					</label>
+					<input type="submit" value="Отследить">
+				</form>
+			</div>
+		</div>
+	</div>
+<!--
+	-------------------------Обратная связь-------------------------
+-->
+	<div id="back" class="footer_tabs">
+		<div class="close_foot_tab">
+			<a href="#also"><img src="img/close.png"></a>
+		</div>
+		<div class="two_in_foot scroll">
+			<h1>Обратная связь</h1>
+			<div class="three_in_foot scroll">
+				<p><span>&ldquo;</span>Что вы хотели бы узнать? - Мы будем рады любому вашему вопросу и дадим ответ в самый кратчайший срок!<span>&rdquo;</span></p>
+				<form action="" method="POST">
+					<label class="review_for_site">
+						<p>Ваше Имя</p>
+						<input type="text" placeholder="Как вас зовут друг" required>
+					</label>
+					<label class="text_review">
+						<p>Ваш вопрос</p>
+						<textarea cols="35" rows="5" placeholder="О чём желаете узнать?" required></textarea>
+					</label>
+					<label class="review_for_site">
+						<p>Контактная информация</p>
+						<input type="text" placeholder="Ваш тел.номер или Email" required>
+					</label>
+					<input type="submit" value="Спросить">
+				</form>
+			</div>
+		</div>
+	</div>
+<!--
+	---------------------------Переключатель-----------------------
+
+	<div class="new_style_checkboxes">
+		<input type="checkbox" id="checks_new1" class="new_checks_item">
+		<label for="checks_new1" class="checkbox_new_style">
+			<span class="checked_item"></span>
+		</label>
+	</div>	
+-->
+</section>
+</body>
+</html>
